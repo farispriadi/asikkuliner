@@ -1,7 +1,7 @@
 ---
-title:  "Adobe Muse Bundle"
+title:  "Soto Kuah"
 metadate: "hide"
-categories: [ Premium, UI, Templates ]
+categories: [ Soto, Bakso, Kuah ]
 image: "/assets/images/adobe-muse.jpg"
 visit: "https://crmrkt.com/zpmep0"
 ---

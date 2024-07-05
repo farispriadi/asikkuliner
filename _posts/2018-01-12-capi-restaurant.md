@@ -1,7 +1,7 @@
 ---
-title:  "Capi Restaurant"
+title:  "Nasi Uduk Enak"
 metadate: "hide"
-categories: [ Premium, UI, Graphics, Templates ]
+categories: [ Nasi, Lauk ]
 image: "/assets/images/capi.jpg"
 visit: "https://crmrkt.com/2QKymR"
 ---
