@@ -258,6 +258,18 @@ article .card-body {
     top: 6px;
     left: 10px;
 }
+
+.wame {
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    background: #25D366;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0px 5px 1px 5px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
 .gotopost {
     position: absolute;
     top: 10px;
