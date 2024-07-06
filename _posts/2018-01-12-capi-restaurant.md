@@ -1,11 +1,9 @@
 ---
-title:  "Nasi Uduk Enak"
+title:  "Nasi Lemak Enak"
 metadate: "hide"
 categories: [ Nasi, Lauk ]
-image: "/assets/images/capi.jpg"
+image: "/assets/images/nasi-lemak.jpg"
 phone: 6285601751281
 visit: "https://crmrkt.com/2QKymR"
 ---
-Capi Restaurant UI Kit is a high quality pack of 40+ social app screens based on iOS 11 which will accelerate your design process and will help develop an outstanding experience.
-
-100% Vector Based, so all screens can be easily resized to fit other iPhone screens. Dimensions 375x812 and 375x667.
+Deskripsi Makanan atau jasa yang tersedia.
