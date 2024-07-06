@@ -1,6 +1,6 @@
 # Site
-name: 'AsiKKuliner'
-description: 'Tempat jajan dan pesan untuk hajatan terlengkap di Pekalongan.'
+name: 'Asik Kuliner'
+description: 'Solusi kuliner untuk segala hajatan di Pekalongan'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: '/'
