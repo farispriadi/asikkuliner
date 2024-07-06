@@ -42,6 +42,18 @@ layout: default
                         Hubungi Kami <i class="fas fa-external-link-alt"></i></a>
                     </p>
                     {% endif %}
+
+                    {% if page.instagram %}
+                    <p><a target="_blank" href="https://www.instagram.com/{{post.instagram}}" class="btn btn-gray d-block font-weight-bold">
+                        Instagram <i class="fas fa-external-link-alt"></i></a>
+                    </p>
+                    {% endif %}
+
+                    {% if page.facebook %}
+                    <p><a target="_blank" href="https://www.facebook.com/{{post.facebook}}" class="btn btn-gray d-block font-weight-bold">
+                        Facebook <i class="fas fa-external-link-alt"></i></a>
+                    </p>
+                    {% endif %}
                     
                     {% for category in page.categories %}
                       <a class="btn btn-sm btn-primary mt-2" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">
