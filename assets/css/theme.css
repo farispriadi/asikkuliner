@@ -525,12 +525,12 @@ a.next {
 
 @media (min-width: 540px) and (max-width: 767px) {
     a.prev {    
-        left: 30px;    
+        left: 10px;    
     }
 }
 
 @media (min-width: 540px) and (max-width: 767px) {
     a.next {
-        right: 30px;
+        right: 10px;
     }
 }
