@@ -13,7 +13,7 @@ layout: default
                         <a data-pin-do="buttonPin" data-pin-tall="true" href="https://www.pinterest.com/pin/create/button/?url={{site.url}}{{site.baseurl}}{{page.url}}&media={{site.url}}{{site.baseurl}}/{{page.image}}&description={{ page.title }}- {{ page.content | strip_html | truncatewords:25 }}"></a>
                     </span> -->
                     <span class="wame">
-                        <a href="https://wa.me/{{post.phone}}?text=Halo,%20Saya%20lihat%20info%20{{post.title}}%20dari%20website%20Asikkuliner" class="text-light" target="_blank"><i class="fa fa-whatsapp"></i> WhatsApp
+                        <a href="https://wa.me/{{post.phone}}?text=Halo,%20Saya%20lihat%20info%20{{post.title | uri_escape}}%20dari%20website%20Asikkuliner" class="text-light" target="_blank"><i class="fa fa-whatsapp"></i> WhatsApp
                          </a>
                     </span>
 
@@ -38,7 +38,7 @@ layout: default
     				{{ content }}
                     
                     {% if page.visit %}
-                    <p><a target="_blank" href="https://wa.me/{{post.phone}}?text=Halo,%20Saya%20lihat%20info%20{{post.title}}%20dari%20website%20Asikkuliner" class="btn btn-gray d-block font-weight-bold">
+                    <p><a target="_blank" href="https://wa.me/{{post.phone}}?text=Halo,%20Saya%20lihat%20info%20{{post.title | uri_escape}}%20dari%20website%20Asikkuliner" class="btn btn-gray d-block font-weight-bold">
                         Hubungi Kami <i class="fas fa-external-link-alt"></i></a>
                     </p>
                     {% endif %}
