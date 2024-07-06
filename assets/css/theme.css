@@ -523,13 +523,13 @@ a.next {
   background-color: #f8f8f8;
 }
 
-@media (min-width: 540px) and (max-width: 767px) {
+@media (max-width: 767px) {
     a.prev {    
         left: 10px;    
     }
 }
 
-@media (min-width: 540px) and (max-width: 767px) {
+@media (max-width: 767px) {
     a.next {
         right: 10px;
     }
