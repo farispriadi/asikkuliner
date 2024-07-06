@@ -522,3 +522,15 @@ a.next {
 .highlight {
   background-color: #f8f8f8;
 }
+
+@media (min-width: 720px) and (max-width: 991px) {
+    a.prev {    
+        left: 50px;    
+    }
+}
+
+@media (min-width: 720px) and (max-width: 991px) {
+    a.next {
+        right: 50px;
+    }
+}
